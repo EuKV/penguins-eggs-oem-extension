@@ -1,6 +1,7 @@
 # Penguins' Eggs OEM Installer Extension (Linux Mint Edition)
 
-An automated engineering solution for OEM deployment of customized Linux distributions (tested on Linux Mint 22.3 Cinnamon) leveraging the **Penguins' Eggs (`coa`)** engine and runtime chroot injections.
+An automated engineering solution for OEM deployment of customized Linux distributions (tested on Linux Mint 22.3 Cinnamon) leveraging the ****[Penguins' Eggs](https://github.com/pieroproietti/penguins-eggs) (`coa`)**
+** engine and runtime chroot injections.
 
 ## ⚠️ Prerequisites & System Requirements
 
