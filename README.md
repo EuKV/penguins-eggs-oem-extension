@@ -92,7 +92,7 @@ Designed for frictionless end-user distribution. The entire asset delivery and c
    sudo tar -czf /opt/my_settings.tar.gz -C ~ .config .local /root/.config /root/.local
    ```
    *(Note: You can easily include additional application directories by appending them to the end of the command if needed, e.g., `.wine .goldendict /root/.synaptic`)*
-2. Open the `automated-patch-code.sh` file from this repository and replace `MASTER_USER` (line 7) with your actual master system username. Then, copy its entire contents and append it to the very end of your master machine's core script located at `/etc/penguins-eggs.d/scripts/bootstrap-liveroot.sh`.
+2. **⚠️ IMPORTANT:** Open the `automated-patch-code.sh` file from this repository and replace `MASTER_USER` (line 7) with your actual master system username. Then, copy its entire contents and append it to the very end of your master machine's core script located at `/etc/penguins-eggs.d/scripts/bootstrap-liveroot.sh`.
 3. Run standard image production on the master host: 
    ```bash
    sudo coa remaster
